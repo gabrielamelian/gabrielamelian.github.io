@@ -1,0 +1,17 @@
+body {
+  background-image: url(fotofinal.jpg);
+}
+
+h1, h2, p, a {
+  font-family: "Monospace"
+}
+
+p {
+  background: #BEDBEB;
+  padding: 5px;
+}
+
+a {
+  background: #BEDBEB;
+  padding: 5px;
+}
