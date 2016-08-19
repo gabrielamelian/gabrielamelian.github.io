@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, p, a {
-  font-family: "Monospace"
+  font-family: "Lucida Console", monospace
 }
 
 p {
