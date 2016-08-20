@@ -1,17 +1,29 @@
-body {
-  background-image: url(fotofinal.jpg);
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-h1, h2, p, a {
-  font-family: "Lucida Console", monospace
+body {
+  background: url(fotofinal.jpg) no-repeat center;
+  background-size: cover;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
 }
 
 p {
   background: #BEDBEB;
   padding: 5px;
+  text-align: justify;
 }
 
 a {
   background: #BEDBEB;
   padding: 3px;
+}
+
+.wrapper {
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
 }
