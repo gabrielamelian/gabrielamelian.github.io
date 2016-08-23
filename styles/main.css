@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background: url(fotofinal.jpg) no-repeat center;
+  background: url(../images/fotofinal.jpg) no-repeat center;
   background-size: cover;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
@@ -30,4 +30,16 @@ p {
   text-decoration: none;
   color: black;
   border-radius: 2px 8px 4px;
+}
+
+.hero {
+  background: url(../images/perito.jpg) no-repeat center;
+  height: 400px;
+}
+
+.herotext {
+  background: none;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
 }
