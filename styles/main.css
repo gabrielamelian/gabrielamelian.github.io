@@ -5,16 +5,16 @@ html, body {
 }
 
 body {
-  background: url(../images/fotofinal.jpg) no-repeat center;
+  background: url(../images/fotofinal.jpg) no-repeat fixed;
   background-size: cover;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Lora', serif;
   text-align: center;
 }
 
-p {
+p, h3, article {
   background: #BEDBEB;
   padding: 5px;
-  text-align: justify;
+  text-align: center;
   border-radius: 4px;
 }
 
@@ -30,6 +30,10 @@ p {
   text-decoration: none;
   color: black;
   border-radius: 2px 8px 4px;
+}
+
+article {
+  margin-bottom: 20px;
 }
 
 .hero {
