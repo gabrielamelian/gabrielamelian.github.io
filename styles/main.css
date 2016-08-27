@@ -5,8 +5,8 @@ html, body {
 }
 
 body {
-  background-size: cover;
   background: url(../images/fotofinal.jpg) no-repeat fixed;
+  background-size: cover;
   font-family: 'Lora', serif;
   text-align: center;
 }
