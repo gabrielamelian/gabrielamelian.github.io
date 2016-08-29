@@ -9,6 +9,7 @@ body {
   background-size: cover;
   font-family: 'Lora', serif;
   text-align: center;
+  font-size: 14pt;
 }
 
 p, h3, article {
