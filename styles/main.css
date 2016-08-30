@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+}
+
+header {
+  background: url("http://placekitten.com/600/300") no-repeat;
+  background-size: cover;
+  height: 30%;
+}
+
+body, html {
+  height: 100%;
+}
