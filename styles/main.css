@@ -3,9 +3,11 @@ img {
 }
 
 header {
-  background: url("http://placekitten.com/600/300") no-repeat;
+  background: url("../images/perito.jpg") no-repeat;
   background-size: cover;
   height: 30%;
+  border: 10px;
+  margin-bottom: 20px;
 }
 
 body, html {
