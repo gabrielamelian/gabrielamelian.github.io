@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gabita</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../styles/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="row">
+  <nav>
+    <div>
+    </div>
+    <a class="button button-primary" href="../index.html" title="Home">Home</a>
+    <a class="button button-primary" href="#" title="About Me">About Me</a>
+    <a class="button button-primary" href="c1-reflection-blog.html" title="Blog">Blog</a>
+    <a class="button button-primary" href="#" title="Portfolio">Portfolio</a>
+  </nav>
+  <h1>Gabita's Wonderland</h1>
+  <p><em>This is the story of an almost-30 woman that decides to reshuffle the cards that life gave her by embarking on a journey of madness and code.</em></p>
+</header>
+
+<main class="container">
+    <article class="row">
+        <h2>Problem Solving</h2>
+        <p>
+          The theme for this week's blog is finding solutions to problems, my favorite part of working on IT! I have always had this taste for puzzles and for finding solutions to the weirdest hardest problems. Since I started programming it obviously comes with a slightly different baggage and specially different tools that you can use to help you through the way.
+        </p>
+        <p>
+          In the following lines I have to reflect upon a time when I had felt blocked and (another) that I was able to overcome and resolve it in an elegant way. TWhen learning to code you get blocked with silly things once every 10 minutes or so, the thing is to learn to get out of these issues easily. I will also go through some of the techniques we learned on the course and specify how I'm feeling about them.
+        </p>
+        <h4>Story about a problem</h4>
+        <ul>
+          <li>What was the problem?</li>
+          <p>
+            I had to write a small program that would create a string that represents an 8×8 grid, using newline characters to separate lines creating the pattern of a "chessboard". I found it hard to resolve this problem using the three principles of programming  <a href="http://www.itexico.com/blog/bid/99765/Software-Development-KISS-YAGNI-DRY-3-Principles-to-simplify-your-life" title="DRY, YAGNI and KISS">DRY, YAGNI and KISS</a>. I had to write down all the possibilities to display the solution, including a representation using boxes and crosses to make it easier for me to understand. I also had to use google to find a way to multiply strings in my crazy attempt to make my function as short as possible, he he.
+          </p>
+          <li>What problem solving techniques did you use?</li>
+          <p>
+            I used paper and pencil to visualize the problem first, I made a graphic representation of what I needed which led me to group the symbols in two variables: <code> a = " #" </code> and <code> b = "# " </code>. I also had to google and learn a function to multiply strings called <code> repeat </code>.
+          </p>
+          <li>How did you feel throughout the process?</li>
+          <p>
+            It was a bit of a brain teaser and hard to solve, however I have to say I really enjoyed working on it. This kind of challenges really feel like solving puzzles and that is my favorite thing!
+          </p>
+          <li>What did you learn?</li>
+          <p>
+            Even after I resolved the problem, I know it is not perfect. It only works to resolve the problem in the very specific way it was presented for the text, and it will break if you add odd numbers to it for example. But I learned a new function and practice my pseudocode, so <a href="http://e.lvme.me/d23gdmp.jpg" title=" which is nice">I have that going on for me, which is nice</a>.
+          </p>
+        </ul>
+        <h4>Problem solving techniques and process</h4>
+        <p>
+          We had this long list of different troubleshooting techniques to go through, but I don't want to bore you presenting all of them at once. I would like to mention the ones I found most useful mainly so I can remember them better.
+        </p>
+        <p>
+          Pseudocode is writing the skeleton of the program in a piece of paper without using code but just the logic. This is something I have been using a lot since before I started the course. It helps specially when you don't know exactly how to do something (like when you are just learning a programming language for example) but you can line up the steps of how the problem can be resolved. From there I usually go and try to fill everything out with what I know, and google what I still don't know. I then try and give it a first run, but at this stage I know something will surely fail. From there it is finding the problems and solving them one by one. A really helpful tool when working with Javascript is using Developer Tools in Chrome.
+        </p>
+        <p>
+          I am lucky to have a few friends that know programming and I can ask questions when I get stuck. They have to be good questions as in per try to find the solution yourself and if you don't find it then, and just then, articulate an intelligent way to get the answer you want. Otherwise you get sent to <a href="https://en.wikipedia.org/wiki/RTFM" title="RTFM">RTFM</a> or more politely to "google" what you are looking for.
+        </p>
+        <h4>Javascript Array functions</h4>
+        <p>
+          I will explain with my own words a couple of array functions in Javascript. I have to say I banged my head against the wall for some time trying to understand these concepts using the recommended documentation <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" title="MDN">MDN Mozilla Developer Network</a> which is way to "academic" can we say (more like cryptic, but hey! To each their own). I did understand finally when I read the <a href="http://www.w3schools.com/" title="w3schools">W3Schools</a> documentation.
+        </p>
+        <ul>
+          <li>Map <code>.map()</code></li>
+          <p>
+            This method applies a given function to each element of an array and then returns a new array containing these results. The original array remains unchanged.
+          </p>
+          <li>Filter <code>.filter()</code></li>
+          <p>
+            This method uses a given function to check through to each element of an array, if the result is <code>true</code> it returns the element, otherwise it discards it. From this method you also obtain a new array containing only the elements that passed the "check". The original array remains unchanged.
+          </p>
+          <li>Reduce <code>.reduce()</code></li>
+          <p>
+            This method seems to be quite mathematic in the sense that it will go through each item in an array and apply a function which will reduce it to a single element. I could not see (or more accurately understand) one example that was not used to produce a mathematic result such as the sum of all elements. I found this really friendly <a href="https://www.airpair.com/javascript/javascript-array-reduce" title="array reduce">article</a> that explains it using loops, the problem is that the loops are already clean and clear, then why use reduce at all? The miseries of Javascript...
+          </p>
+        </ul>
+    </article>
+    <nav class="row">
+        <a class="button" href="c4-daily-mindfulness.html" title="Previous">Previous</a>
+        <a class="button" href="../index.html" title="Next">Next</a>
+    </nav>
+</main>
+
+<footer class="row">
+  <h5>Designed and developed by Gabriela Roque Lopez 2016</h5>
+</footer>
+</body>
+</html>
