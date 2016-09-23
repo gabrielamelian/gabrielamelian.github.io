@@ -5,7 +5,7 @@ img {
 header {
   background: url("../images/perito.jpg") no-repeat;
   background-size: cover;
-  height: 40%;
+  height: 50%;
   border: 10px;
   margin-bottom: 20px;
   text-align: center;
@@ -13,6 +13,7 @@ header {
 
 body, html {
   height: 100%;
+  text-align: center
 }
 
 footer, nav {
