@@ -29,7 +29,7 @@
         <p>
           This week we have a look at some of the cornerstones of writing code: the use of parentheses, braces, brackets, and single and double quotes. They are used to tell the program to interpret things a certain way, much like punctuation does in written language. Below are all of the case uses that I can think of these on Javascript.
         </p>
-        <h3>Parentheses ( )</h3>
+        <h4>Parentheses ( )</h4>
         <p>
           These are used in a way that is similar to maths in the sense that you can use them to tell the computer to do some action first before proceeding to the next. The difference is that it not only applies to mathematical operations, but also logical and others. It is telling the program "do this first, then proceed with the rest".<br />
           <code>
@@ -51,6 +51,35 @@
           </code>
           <code>
             function countSurroundingMines (cell) { }
+          </code>
+        </p>
+        <h4>Brackets []</h4>
+        <p>
+          These are used to define arrays and to contain the things in them.<br />
+          <code>
+            var cells = ["cell1", "cell2"]
+          </code>
+        </p>
+        <p>
+          They are also used to index parts of the array in order to find them from outside of it. All elements on an array have an order number starting from 0 so if we want to get the second object on our array we call it like this:<br />
+          <code>
+            cells[1]
+          </code>
+        </p>
+        <p>
+          In a similar way to arrays, brackets are also used to find a property for an object, only in this case the property name needs to be in quotes or double quotes (string).<br />
+          <code>
+            board = {cells: "black"}
+          </code>
+          <code>
+            board["cells"]
+          </code>
+        </p>
+        <h4>Braces {}</h4>
+        <p>
+          Braces are used to define Objects in Javascript as in the previous example<br />
+          <code>
+            board = {cells: "black"}
           </code>
         </p>
     </article>
